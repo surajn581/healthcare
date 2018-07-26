@@ -1,0 +1,53 @@
+.form{
+	text-align: center;
+}
+
+body{
+	align-content: center;
+}
+
+table{
+	align:center;
+	border:2px solid #000000;
+	padding: 30px;
+	border-radius: 10px;
+	width: 80%;
+}
+
+form{
+	align-content: center;
+	width:60%;
+
+}
+
+input{
+  padding:5px;
+  height:25px;
+  width:80%;
+  border: 2px solid #008000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+td{
+	font: 15px/2 Arial, Helvetica,sans-serif;
+	padding: 3px;
+	color: #003300;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.butt{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  color:#ffffff;
+  width: 40%;
+  max-width: 200px;
+  border-radius: 0px;
+  padding: 40px;
+}
+
+.big{
+	height: 50px;
+}

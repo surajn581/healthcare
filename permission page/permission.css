@@ -1,0 +1,86 @@
+  section{
+  	align-items: center;
+  }
+
+  .gallery1{
+	 width:90%;
+	 margin: auto;
+	 overflow: hidden;
+	 padding-bottom: 10px;
+ }
+
+ .responsive1{
+	padding: 6px;
+	float: left;
+	width: 25%;
+	overflow: hidden;
+}
+
+.block1{
+	border:1px solid black;
+	border-radius: 20px;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+	background-color: white;
+}
+
+.block1:hover{
+	background-color: lightgreen;
+}
+
+.block1 img:hover{
+	width: 110%;
+	height: auto;
+}
+
+.descp1:hover{
+	background-color: lightgreen;
+	color: red;
+}
+
+.block1 img{
+	width:100%;
+	height: auto;
+	margin:0 auto;
+	transition: 0.5s;
+	border-radius: 20px;
+}
+
+.descp1{
+	padding:5px;
+	position: relative;
+	text-align:center;
+	transition: 0.5s;
+}
+
+
+
+ /*Responsive*/
+ 
+ @media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+ @media only screen and (max-width: 700px){
+    .responsive1 {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive1 {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,119 @@
+body
+{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0; 
+  margin:0;
+  background:#c2c2a3;
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity:0.9;
+}
+
+
+.container
+{
+         width: 80%;
+         margin: auto;
+         overflow:hidden;
+}      
+       
+header
+{
+padding-top: 10px;
+min-height:70px;
+float: center;
+text-align: center;
+
+  background:#4d79ff;
+  color:#ffffff;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+
+
+}  
+
+
+body a
+{
+   color: #000000; 
+   text-decoration: none;
+   font-size: 16px;		
+   overflow:hidden;
+}
+
+body ul
+{
+margin: 0;
+padding: 0;
+}
+
+body li 
+{
+   float: center;
+   padding: 0px 20px 0px 20px;
+}
+
+body a:hover
+{
+color: #cccccc;
+font-weight: bold;
+}
+
+body #login{
+	text-align: center;
+	min-width: 25%;
+	height: 200px;
+	margin: auto;
+	float: center;
+	aside: center;
+	padding: 5px;
+
+}
+
+body #login a
+{
+	
+	text-decoration: none;
+	font-size: 25px;
+	padding: 0 3px 0 3px;
+	padding: 3px;
+	background-color: #99ccff;
+	border-radius: 20px;
+	color: black;
+}
+ footer
+{
+ 	float: bottom;
+ 	position: relative;
+ 	padding: 10px;
+ 	border-bottom: 3px black solid;
+ }
+
+
+ /*Responsive*/
+ 
+ @media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+ @media only screen and (max-width: 700px){
+    .responsive1 {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive1 {
+        width: 100%;
+    }
+}
